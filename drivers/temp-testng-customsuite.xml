@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="classes" thread-count="2">
+  <test name="automation">
+    <classes>
+      <class name="com.testng0718.ActionsCases">
+        <methods>
+          <include name="uploadTestCase"/>
+        </methods>
+      </class>
+      <class name="com.testng0718.FrameCase">
+        <methods>
+          <!--<include name="uploadTestCase"/>-->
+        </methods>
+      </class>
+      <class name="com.testng0721.GridTest">
+        <methods>
+          <!--<include name="uploadTestCase"/>-->
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- automation -->
+</suite> <!-- Default Suite -->
