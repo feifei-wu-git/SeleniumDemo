@@ -3,25 +3,23 @@
 <suite thread-count="2" verbose="0" name="Failed suite [Default Suite]" parallel="classes">
   <test name="automation(failed)" parallel="classes">
     <classes>
-      <class name="com.testng0718.ActionsCases">
-        <methods>
-          <include name="uploadTestCase"/>
-          <include name="openChrome"/>
-        </methods>
-      </class> <!-- com.testng0718.ActionsCases -->
       <class name="com.testng0721.GridTest">
         <methods>
           <include name="testCase" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.testng0721.GridTest -->
-      <class name="com.testng0718.FrameCase">
+      <class name="com.testng0714.TestNGAssert">
         <methods>
-          <include name="confirmCase"/>
-          <include name="openChrome"/>
-          <include name="closeChrome"/>
-          <include name="alertCase"/>
+          <include name="assertNullTest"/>
+          <include name="assertEqualTest"/>
         </methods>
-      </class> <!-- com.testng0718.FrameCase -->
+      </class> <!-- com.testng0714.TestNGAssert -->
+      <class name="com.testng0714.HomeWork">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.testng0714.HomeWork -->
     </classes>
   </test> <!-- automation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
