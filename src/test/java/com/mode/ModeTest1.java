@@ -76,28 +76,28 @@ public class ModeTest1 {
         System.out.println("----------------------------------------");
     }
 
-    @Test
-    public void case2(){
-        System.setProperty("webdriver.chrome.driver","E:\\WFF\\workspace\\automation\\drivers\\chromedriver.exe");
-        WebDriver webDriver = new ChromeDriver(); // 本地启动浏览器
-        webDriver.get("www.163.com");
-        ElementTest.login(webDriver,"","");
-        webDriver.quit();// 关闭浏览器
-    }
+//    @Test
+//    public void case2(){
+//        System.setProperty("webdriver.chrome.driver","E:\\WFF\\workspace\\automation\\drivers\\chromedriver.exe");
+//        WebDriver webDriver = new ChromeDriver(); // 本地启动浏览器
+//        webDriver.get("www.163.com");
+//        ElementTest.login(webDriver,"","");
+//        webDriver.quit();// 关闭浏览器
+//    }
 }
 
-class ElementTest{
-    // 提取登录方法
-    public static void login(WebDriver webDriver,String username,String pwd){
-        webDriver.findElement(PageObjectTest.userBy).sendKeys(username);//登录用户
-        webDriver.findElement(PageObjectTest.pwdBy).sendKeys(pwd);//登录密码
-        webDriver.findElement(PageObjectTest.clickBy).click();//点击登录
-    }
-}
-
-class PageObjectTest{
-
-    public static By userBy = By.xpath("");
-    public static By pwdBy = By.xpath("");
-    public static By clickBy = By.xpath("");
-}
+//class ElementTest{
+//    // 提取登录方法
+//    public static void login(WebDriver webDriver,String username,String pwd){
+//        webDriver.findElement(PageObjectTest.userBy).sendKeys(username);//登录用户
+//        webDriver.findElement(PageObjectTest.pwdBy).sendKeys(pwd);//登录密码
+//        webDriver.findElement(PageObjectTest.clickBy).click();//点击登录
+//    }
+//}
+//
+//class PageObjectTest{
+//
+//    public static By userBy = By.xpath("");
+//    public static By pwdBy = By.xpath("");
+//    public static By clickBy = By.xpath("");
+//}
