@@ -1,5 +1,6 @@
 package com.testng0715;
 
+import com.page.LoginTest;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -9,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pageobject.LoginTest;
+
 
 import java.net.MalformedURLException;
 import java.net.URL;
