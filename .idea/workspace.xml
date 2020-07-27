@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e70a289-faf3-4f34-93b2-6d94c7ed36c2" name="Default" comment="" />
+    <list default="true" id="7e70a289-faf3-4f34-93b2-6d94c7ed36c2" name="Default" comment="第二次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/selenium/pageobject/LoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/selenium/pageobject/PageElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mode/ModeTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mode/ModeTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testng0718/FrameCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testng0718/FrameCase.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +45,8 @@
       <file leaf-file-name="ActionsCases.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0718/ActionsCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="168">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +54,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FrameCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0718/FrameCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="252" column="13" lean-forward="true" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
+            <state relative-caret-position="4998">
+              <caret line="252" column="13" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +78,7 @@
       <file leaf-file-name="TestCase_DCSC139.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/DCSC/TestCase_DCSC139.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="882">
               <caret line="48" column="48" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="48" />
               <folding>
                 <element signature="e#2001#2002#0" expanded="true" />
@@ -79,29 +95,26 @@
       <file leaf-file-name="TestCase_Impl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/DCSC/TestCase_Impl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="7770">
               <caret line="401" column="73" selection-start-line="401" selection-start-column="50" selection-end-line="401" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WebTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/util/WebTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="1107" column="13" lean-forward="true" selection-start-line="1107" selection-start-column="13" selection-end-line="1107" selection-end-column="13" />
+            <state relative-caret-position="21714">
+              <caret line="1107" column="13" selection-start-line="1107" selection-start-column="13" selection-end-line="1107" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminToolTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0715/AdminToolTest.java">
+      <file leaf-file-name="DemoCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0721/DemoCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -109,8 +122,8 @@
       <file leaf-file-name="ModeTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/ModeTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+            <state relative-caret-position="1554">
+              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,20 +143,8 @@
       <file leaf-file-name="PageElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/selenium/pageobject/PageElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0721/GridTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -168,6 +169,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -181,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/testng/BrowserActionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng0714/HomeWork.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng/OpenBrowser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng0718/ActionsCases.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng0721/GridTest.java" />
         <option value="$PROJECT_DIR$/drivers/temp-testng-customsuite.xml" />
@@ -193,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/com/selenium/pageobject/mode/ModeTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mode/ModeTest1.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testng0718/FrameCase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -224,27 +226,12 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.seleniumhq.selenium:selenium-java:3.141.59" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.seleniumhq.selenium:selenium-java:3.141.59" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.seleniumhq.selenium:selenium-support:3.141.59" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.seleniumhq.selenium:selenium-java:3.141.59" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="com.google.guava:guava:25.0-jre" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -256,6 +243,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -263,13 +251,10 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alita-autotesting-thanos-master" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
@@ -279,102 +264,10 @@
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mode" type="462c0819:PsiDirectoryNode" />
-              <item name="ModeTest1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="testng0715" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="testng0718" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="testng0721" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ModeTest1.case01">
+  <component name="RunManager" selected="TestNG.ActionsCases">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -424,6 +317,35 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="ActionsCases" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testng0718.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.testng0718" />
+      <option name="MAIN_CLASS_NAME" value="com.testng0718.ActionsCases" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
     </configuration>
     <configuration name="AdminToolTest.adminToolLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation" />
@@ -464,35 +386,6 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="GridTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testng0721.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.testng0721" />
-      <option name="MAIN_CLASS_NAME" value="com.testng0721.GridTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -587,19 +480,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.GridTest" />
       <item itemvalue="TestNG.E:/WFF/workspace/automation/drivers/temp-testng-customsuite.xml" />
       <item itemvalue="TestNG.TestNG.testCase01" />
       <item itemvalue="TestNG.AdminToolTest.adminToolLogin" />
       <item itemvalue="TestNG.ModeTest1.case01" />
+      <item itemvalue="TestNG.ActionsCases" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionsCases" />
         <item itemvalue="TestNG.ModeTest1.case01" />
         <item itemvalue="TestNG.AdminToolTest.adminToolLogin" />
         <item itemvalue="TestNG.TestNG.testCase01" />
         <item itemvalue="TestNG.E:/WFF/workspace/automation/drivers/temp-testng-customsuite.xml" />
-        <item itemvalue="TestNG.GridTest" />
       </list>
     </recent_temporary>
   </component>
@@ -618,14 +511,23 @@
       <workItem from="1594997041446" duration="1451000" />
       <workItem from="1595046905481" duration="23015000" />
       <workItem from="1595171816765" duration="8073000" />
-      <workItem from="1595418523637" duration="12284000" />
+      <workItem from="1595418523637" duration="13076000" />
+      <workItem from="1595599613698" duration="1862000" />
+      <workItem from="1595652493420" duration="4046000" />
+      <workItem from="1595657230965" duration="338000" />
+      <workItem from="1595820422147" duration="2104000" />
     </task>
+    <task id="LOCAL-00001" summary="第二次提交">
+      <created>1595585424781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595585424781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminToolTest_flagDefineCase - 2020.07.21 at 23h 53m 20s.xml">
-      <configuration name="AdminToolTest.flagDefineCase" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GridTest - 2020.07.21 at 23h 56m 38s.xml">
       <configuration name="GridTest" configurationId="TestNG" />
     </history-entry>
@@ -653,9 +555,12 @@
     <history-entry file="ModeTest1_case01 - 2020.07.22 at 22h 32m 11s.xml">
       <configuration name="ModeTest1.case01" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ActionsCases - 2020.07.25 at 11h 54m 59s.xml">
+      <configuration name="ActionsCases" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101937000" />
+    <option name="totallyTimeSpent" value="111079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,19 +576,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294893" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32626426" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38499185" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32789558" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38398692" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32843137" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78238344" visible="true" weight="0.29500756" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78238344" visible="true" weight="0.31316188" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.21761657" side_tool="true" weight="0.2118003" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -691,9 +595,10 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" sideWeight="0.15163147" side_tool="true" weight="0.24508321" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25448614" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.329429" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3251634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -706,6 +611,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="29" />
@@ -716,10 +625,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0714/HomeWork.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0721/DemoCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -727,9 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3108">
           <caret line="148" column="83" selection-start-line="148" selection-start-column="83" selection-end-line="148" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,9 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#1918#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,30 +867,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding>
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/DCSC/CheckCsv.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8.13/testng-6.8.13.jar!/org/testng/ITestContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-598">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#1238#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1009,43 +895,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="35" column="48" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0715/AdminToolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/selenium/pageobject/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="840">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/selenium/pageobject/PageElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0718/ActionsCases.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1058,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mode/ModeTest1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="84" column="33" lean-forward="true" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+        <state relative-caret-position="1554">
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1068,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0718/FrameCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="252" column="13" lean-forward="true" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
+        <state relative-caret-position="4998">
+          <caret line="252" column="13" selection-start-line="252" selection-start-column="13" selection-end-line="252" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1078,7 +941,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/DCSC/TestCase_DCSC139.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="882">
           <caret line="48" column="48" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="48" />
           <folding>
             <element signature="e#2001#2002#0" expanded="true" />
@@ -1093,15 +956,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/DCSC/TestCase_Impl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="7770">
           <caret line="401" column="73" selection-start-line="401" selection-start-column="50" selection-end-line="401" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../alita-autotesting-thanos-master/src/com/lenovo/automation/util/WebTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="1107" column="13" lean-forward="true" selection-start-line="1107" selection-start-column="13" selection-end-line="1107" selection-end-column="13" />
+        <state relative-caret-position="21714">
+          <caret line="1107" column="13" selection-start-line="1107" selection-start-column="13" selection-end-line="1107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0721/DemoCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/selenium/pageobject/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testng0718/ActionsCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>
