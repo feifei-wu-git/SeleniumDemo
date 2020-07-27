@@ -3,12 +3,12 @@
 <suite name="Default Suite" parallel="classes" thread-count="2">
   <test name="automation">
     <classes>
-      <class name="com.testng0714.HomeWork">
+      <class name="com.testng0718.ActionsCases">
         <methods>
-          <!--<include name="uploadTestCase"/>-->
+          <include name="uploadTestCase"/>
         </methods>
       </class>
-      <class name="com.testng0714.TestNGAssert">
+      <class name="com.testng0718.FrameCase">
         <methods>
           <!--<include name="uploadTestCase"/>-->
         </methods>
