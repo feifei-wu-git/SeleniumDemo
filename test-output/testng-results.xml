@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="44454" started-at="2020-07-28T03:21:04Z" finished-at="2020-07-28T03:21:49Z">
+    <groups>
+    </groups>
+    <test name="automation" duration-ms="44454" started-at="2020-07-28T03:21:04Z" finished-at="2020-07-28T03:21:49Z">
+      <class name="com.testng0714.HomeWork">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="openBrowser" is-config="true" duration-ms="15521" started-at="2020-07-28T11:21:04Z" finished-at="2020-07-28T11:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="testCase01" duration-ms="2004" started-at="2020-07-28T11:21:20Z" finished-at="2020-07-28T11:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="quitBrowser" is-config="true" duration-ms="931" started-at="2020-07-28T11:21:22Z" finished-at="2020-07-28T11:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="openBrowser" is-config="true" duration-ms="9061" started-at="2020-07-28T11:21:23Z" finished-at="2020-07-28T11:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCase02()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="testCase02" duration-ms="3093" started-at="2020-07-28T11:21:32Z" finished-at="2020-07-28T11:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="quitBrowser" is-config="true" duration-ms="914" started-at="2020-07-28T11:21:35Z" finished-at="2020-07-28T11:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="openBrowser" is-config="true" duration-ms="6451" started-at="2020-07-28T11:21:36Z" finished-at="2020-07-28T11:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCase03()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="testCase03" duration-ms="5398" started-at="2020-07-28T11:21:42Z" finished-at="2020-07-28T11:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.testng0714.HomeWork@6aaa5eb0]" name="quitBrowser" is-config="true" duration-ms="1058" started-at="2020-07-28T11:21:47Z" finished-at="2020-07-28T11:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.testng0714.HomeWork -->
+    </test> <!-- automation -->
+  </suite> <!-- Default Suite -->
+</testng-results>
