@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="classes">
+  <test name="automation">
+    <classes>
+      <class name="com.testng0714.HomeWork">
+        <methods>
+          <!--<include name="uploadTestCase"/>-->
+          <exclude name="case1"></exclude>
+        </methods>
+      </class>
+
+      <class name="com.testng0714.TestNGAssert">
+        <methods>
+          <include name="assertEqualTest"/>
+          <!--<exclude name="case1"></exclude>-->
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- automation -->
+</suite> <!-- Default Suite -->
