@@ -8,6 +8,14 @@
           <!--<include name="uploadTestCase"/>-->
           <exclude name="case1"></exclude>
         </methods>
+
+      </class>
+      <class name="com.testng0714.TestNGAssert">
+        <methods>
+          <!--<include name="uploadTestCase"/>-->
+          <exclude name="assertNullTest"></exclude>
+        </methods>
+
       </class>
     </classes>
   </test> <!-- automation -->
