@@ -26,7 +26,7 @@
     <xsl:variable name="chartHeight" select="round(200 * testng:getVariableSafe($testNgXslt.chartScaleFactor, 1))"/>
 
     <xsl:template name="writeCssFile">
-        <xsl:result-document href="{testng:absolutePath('C:\Users\issuser\.jenkins\workspace\selenium_demo\test-output\style.css')}" format="text">
+        <xsl:result-document href="C:\Users\issuser\.jenkins\workspace\selenium_demo\test-output\style.css" format="text">
             <xsl:choose>
                 <xsl:when test="testng:isFilterSelected('CONF') = 'true'">
                     .testMethodStatusCONF { }
