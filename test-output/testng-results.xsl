@@ -100,7 +100,7 @@
     </xsl:template>
 
     <xsl:template name="writeJsFile">
-        <xsl:result-document href="{testng:absolutePath('main.js')}" format="text">
+        <xsl:result-document href="main.js" format="text">
             <![CDATA[
             var selectedTestCaseLink;
 
@@ -513,7 +513,7 @@
 
 
         <!-- Results overview file -->
-        <xsl:result-document href="{testng:absolutePath('overview.html')}" format="xhtml">
+        <xsl:result-document href="overview.html" format="xhtml">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <xsl:call-template name="htmlHead"/>
                 <body>
@@ -586,7 +586,7 @@
         </xsl:result-document>
 
         <!-- Reporter output file -->
-        <xsl:result-document href="{testng:absolutePath('reporterOutput.html')}" format="xhtml">
+        <xsl:result-document href="reporterOutput.html" format="xhtml">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <xsl:call-template name="htmlHead"/>
                 <body>
@@ -607,7 +607,7 @@
     <xsl:template name="navigationFile">
         <xsl:param name="suiteElements"/>
         <xsl:param name="reporterOutputElement"/>
-        <xsl:result-document href="{testng:absolutePath('navigation.html')}" format="xhtml">
+        <xsl:result-document href="navigation.html" format="xhtml">
             <html xmlns="http://www.w3.org/1999/xhtml">
                 <xsl:call-template name="htmlHead"/>
                 <body>
