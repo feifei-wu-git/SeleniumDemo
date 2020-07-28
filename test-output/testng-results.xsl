@@ -26,7 +26,7 @@
     <xsl:variable name="chartHeight" select="round(200 * testng:getVariableSafe($testNgXslt.chartScaleFactor, 1))"/>
 
     <xsl:template name="writeCssFile">
-        <xsl:result-document href="{testng:absolutePath('style.css')}" format="text">
+        <xsl:result-document href="{testng:absolutePath('C:\Users\issuser\.jenkins\workspace\selenium_demo\test-output\style.css')}" format="text">
             <xsl:choose>
                 <xsl:when test="testng:isFilterSelected('CONF') = 'true'">
                     .testMethodStatusCONF { }
@@ -343,7 +343,7 @@
         <xsl:param name="testCaseElements"/>
         <xsl:value-of select="if (count($testCaseElements/class/test-method[(@status='FAIL') and (not(@is-config))]) > 0) then 'suiteStatusFail' else 'suiteStatusPass'"/>
     </xsl:function>
-    
+
     <xsl:function name="testng:formatDuration">
         <xsl:param name="durationMs"/>
         <!--Days-->
@@ -546,7 +546,7 @@
                                     <xsl:with-param name="totalCount"
                                                     select="testng:suiteMethodsCount($testCaseElements, '*')"/>
                                     <xsl:with-param name="totalDuration"
-                                                    select="testng:formatDuration(./@duration-ms)"/>                                                    
+                                                    select="testng:formatDuration(./@duration-ms)"/>
                                 </xsl:call-template>
                             </tr>
                             <xsl:for-each select="$testCaseElements">
