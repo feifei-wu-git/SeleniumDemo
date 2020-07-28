@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="4" name="TestSuite" time="23.001" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="10.497" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -23,7 +23,7 @@
     <property name="CURR_DIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.version" value="1.8.0_101"/>
-    <property name="JOB_NAME" value="Webdriver2020"/>
+    <property name="JOB_NAME" value="selenium_demo"/>
     <property name="COMPUTERNAME" value="ISS460602003507"/>
     <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
     <property name="EXECUTABLE" value="E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\bin\catalina.bat"/>
@@ -38,37 +38,38 @@
     <property name="=E:" value="E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\bin"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\issuser\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/5/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8081/jenkins/job/selenium_demo/8/display/redirect?page=changes"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-Webdriver2020-5"/>
+    <property name="BUILD_TAG" value="jenkins-selenium_demo-8"/>
     <property name="TERM" value="dumb"/>
     <property name="windows_tracing_flags" value="3"/>
     <property name="file.encoding" value="GBK"/>
+    <property name="automation" value="E:\WFF\workspace\automation"/>
     <property name="LOG_FILE" value="C:\Users\issuser\AppData\Local\Temp\ihp_custom_batches.log"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3 E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\jenkins\WEB-INF\lib\remoting-4.3.jar C:\Users\issuser\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\issuser\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 48262"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3 E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\webapps\jenkins\WEB-INF\lib\remoting-4.3.jar C:\Users\issuser\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\issuser\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 29019"/>
     <property name="HUDSON_URL" value="http://localhost:8081/jenkins/"/>
     <property name="JENKINS_SERVER_COOKIE" value="70276400a8c3c153"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Tools\nodejs\;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\;C:\Users\issuser\Anaconda3;C:\Users\issuser\Anaconda3\Scripts;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2\bin;;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\Google\Chrome\Application;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;C:\Users\issuser\AppData\Roaming\npm;C:\Program Files (x86)\MyDrivers\DriverGenius;C:\Program Files (x86)\MyDrivers\DriverGenius\ksoft"/>
     <property name="LOGGER_CONFIG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\ltlogconf.xml"/>
-    <property name="GIT_COMMIT" value="79cabd05dc17fef9dc2324ad9ae670c4eadeca76"/>
+    <property name="GIT_COMMIT" value="55e386468c0f679e7249d219285622530a87636d"/>
     <property name="java.io.tmpdir" value="C:\Users\issuser\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\issuser\AppData\Roaming"/>
     <property name="user.language" value="zh"/>
     <property name="CATALINA_TMPDIR" value="E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\temp"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/5/"/>
+    <property name="BUILD_URL" value="http://localhost:8081/jenkins/job/selenium_demo/8/"/>
     <property name="TESSDATA_PREFIX" value="C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Tesseract-OCR\"/>
     <property name="ACTION" value="start"/>
     <property name="M2_HOME" value="E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="CATALINA_BASE" value="E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37"/>
@@ -76,7 +77,7 @@
     <property name="HUDSON_SERVER_COOKIE" value="70276400a8c3c153"/>
     <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.8.0_101"/>
     <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.8.0_101\bin\java.exe&quot;"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\issuser\.jenkins\workspace\Webdriver2020@tmp"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\issuser\.jenkins\workspace\selenium_demo@tmp"/>
     <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.8.0_101\bin\java.exe&quot;"/>
     <property name="MAVEN_HOME" value="E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="SESSIONNAME" value="Console"/>
@@ -92,7 +93,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="5"/>
+    <property name="BUILD_NUMBER" value="8"/>
     <property name="maven3.interceptor" value="C:\Users\issuser\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Tools\nodejs\;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Tesseract-OCR;C:\Program Files\Git\cmd;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\;C:\Users\issuser\Anaconda3;C:\Users\issuser\Anaconda3\Scripts;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2\bin;;C:\Users\issuser\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\Google\Chrome\Application;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;C:\Users\issuser\AppData\Roaming\npm;C:\Program Files (x86)\MyDrivers\DriverGenius;C:\Program Files (x86)\MyDrivers\DriverGenius\ksoft;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -103,13 +104,14 @@
     <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
     <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_101\bin\jdb.exe&quot;"/>
     <property name="LR_ROOT" value="C:\Program Files (x86)\HP\LoadRunner\"/>
-    <property name="JOB_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/"/>
+    <property name="JOB_URL" value="http://localhost:8081/jenkins/job/selenium_demo/"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="55e386468c0f679e7249d219285622530a87636d"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/5/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8081/jenkins/job/selenium_demo/8/display/redirect"/>
     <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
     <property name="FTP_PASSIVE" value="1"/>
     <property name="JENKINS_HOME" value="C:\Users\issuser\.jenkins"/>
-    <property name="BUILD_ID" value="5"/>
+    <property name="BUILD_ID" value="8"/>
     <property name="TEMP" value="C:\Users\issuser\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
     <property name="VUGEN_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
@@ -120,10 +122,11 @@
     <property name="PROCESSOR_REVISION" value="4e03"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="HUDSON_HOME" value="C:\Users\issuser\.jenkins"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="55e386468c0f679e7249d219285622530a87636d"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="PATH+MAVEN" value="E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin"/>
     <property name="IntelliJ IDEA" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/5/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8081/jenkins/job/selenium_demo/8/display/redirect?page=artifacts"/>
     <property name="PROMPT" value="$P$G"/>
     <property name="CURRENT_DIR" value="E:\WFF\Automation\Tomcat\apache-tomcat-9.0.37-windows-x64\apache-tomcat-9.0.37\bin"/>
     <property name="java.vm.specification.version" value="1.8"/>
@@ -132,7 +135,7 @@
     <property name="NODE_LABELS" value="master"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="USERPROFILE" value="C:\Users\issuser"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8081/jenkins/job/selenium_demo/display/redirect"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="os.version" value="6.1"/>
     <property name="user.home" value="C:\Users\issuser"/>
@@ -151,8 +154,8 @@
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
     <property name="os.arch" value="amd64"/>
     <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
-    <property name="WORKSPACE" value="C:\Users\issuser\.jenkins\workspace\Webdriver2020"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8081/jenkins/job/Webdriver2020/5/display/redirect?page=tests"/>
+    <property name="WORKSPACE" value="C:\Users\issuser\.jenkins\workspace\selenium_demo"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8081/jenkins/job/selenium_demo/8/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="SystemRoot" value="C:\windows"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
@@ -167,144 +170,14 @@
     <property name="POM_PACKAGING" value="jar"/>
     <property name="maven.home" value="E:\WFF\Automation\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="ENDORSED_PROP" value="ignore.endorsed.dirs"/>
-    <property name="JOB_BASE_NAME" value="Webdriver2020"/>
+    <property name="JOB_BASE_NAME" value="selenium_demo"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="POM_DISPLAYNAME" value="automation"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="GIT_URL" value="https://github.com/feifei-wu-git/SeleniumDemo.git"/>
   </properties>
-  <testcase classname="com.testng0714.TestNGAssert" name="assertEqualTest" time="0.019">
-    <failure message="a和b不相等 expected [1] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: a和b不相等 expected [1] but found [1]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at com.testng0714.TestNGAssert.assertEqualTest(TestNGAssert.java:37)
-</failure>
-  </testcase>
-  <testcase classname="com.testng0714.TestNGAssert" name="assertNotEqualTest" time="0"/>
-  <testcase classname="com.testng0714.TestNGAssert" name="assertNullTest" time="0">
-    <failure message="c不为空 expected [null] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: c不为空 expected [null] but found [1]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotSame(Assert.java:490)
-	at org.testng.Assert.assertNull(Assert.java:426)
-	at com.testng0714.TestNGAssert.assertNullTest(TestNGAssert.java:58)
-</failure>
-  </testcase>
-  <testcase classname="com.testng0714.HomeWork" name="case1" time="6.063"/>
-  <testcase classname="com.testng0721.GridTest" name="testCase" time="1.003">
-    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ISS460602003507&apos;, ip: &apos;10.112.68.62&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ISS460602003507&apos;, ip: &apos;10.112.68.62&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.testng0721.GridTest.testCase(GridTest.java:35)
-Caused by: java.net.ConnectException: Failed to connect to /10.98.88.96:5551
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 39 more
-</failure>
-    <system-err>Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 28340
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1595830119.555][WARNING]: This version of ChromeDriver has not been tested with Chrome version 84.
-七月 27, 2020 2:08:40 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
-信息: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.testng0714.HomeWork" name="testCase01" time="0.998"/>
-  <testcase classname="com.testng0714.HomeWork" name="testCase02" time="3.083"/>
-  <testcase classname="com.testng0714.HomeWork" name="testCase03" time="5.276"/>
-  <testcase classname="com.testng0721.GridTest" name="testCase" time="6.559">
-    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ISS460602003507&apos;, ip: &apos;10.112.68.62&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ISS460602003507&apos;, ip: &apos;10.112.68.62&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.testng0721.GridTest.testCase(GridTest.java:35)
-Caused by: java.net.ConnectException: Failed to connect to /10.98.88.96:5551
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-	at okhttp3.RealCall.execute(RealCall.java:77)
-	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	... 17 more
-Caused by: java.net.ConnectException: Connection timed out: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 39 more
-</failure>
-  </testcase>
+  <testcase classname="com.testng0714.HomeWork" name="testCase01" time="2.007"/>
+  <testcase classname="com.testng0714.HomeWork" name="testCase02" time="3.094"/>
+  <testcase classname="com.testng0714.HomeWork" name="testCase03" time="5.396"/>
 </testsuite>
