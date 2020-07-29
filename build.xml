@@ -12,10 +12,10 @@
 
 		<!-- <mkdir dir="F:/eclipse-workspace-2/SandyTestNg/test-output/"/> -->
 
-		<xslt in="${basedir}/test-output/testng-results.xml"
-			  style="${basedir}/test-output/testng-results.xsl"
-			  out="${basedir}/test-output/index1.html">
-			<param name="testNgXslt.outputDir" expression="${basedir}/test-output/" />
+		<xslt in="./test-output/testng-results.xml"
+			  style="./test-output/testng-results.xsl"
+			  out="./test-output/index1.html">
+			<param name="testNgXslt.outputDir" expression="./test-output/" />
 			<classpath refid="test.classpath" />
 		</xslt>
 	</target>
