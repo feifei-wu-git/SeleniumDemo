@@ -14,7 +14,7 @@
 
 		<xslt in="./test-output/testng-results.xml"
 			  style="./test-output/testng-results.xsl"
-			  out="./test-output/index1.html">
+			  out="./test-output/index12.html">
 			<param name="testNgXslt.outputDir" expression="./test-output/" />
 			<classpath refid="test.classpath" />
 		</xslt>
