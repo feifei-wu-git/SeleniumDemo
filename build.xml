@@ -13,7 +13,7 @@
 		<!-- <mkdir dir="F:/eclipse-workspace-2/SandyTestNg/test-output/"/> -->
 
 		<xslt in="E:/WFF/workspace/automation/test-output/testng-results.xml"
-			  style="E:/WFF/workspace/automation/testng-results.xsl"
+			  style="E:/WFF/workspace/automation/test-output/testng-results.xsl"
 			  out="E:/WFF/workspace/automation/test-output/index1.html">
 			<param name="testNgXslt.outputDir" expression="E:/WFF/workspace/automation/test-output/" />
 			<classpath refid="test.classpath" />
