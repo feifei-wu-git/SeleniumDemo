@@ -12,7 +12,7 @@
 
 		<!-- <mkdir dir="F:/eclipse-workspace-2/SandyTestNg/test-output/"/> -->
 
-		<xslt in="./test-output/testng-results.xml"
+		<xslt in="./target/surefire-reports/testng-results.xml"
 			  style="./test-output/testng-results.xsl"
 			  out="./test-output/index12.html">
 			<param name="testNgXslt.outputDir" expression="./test-output/" />
