@@ -286,7 +286,7 @@
 
     <xsl:function name="testng:absolutePath">
         <xsl:param name="fileName"/>
-        <xsl:value-of select="concat('file:////', $testNgXslt.outputDir, '/', $fileName)"/>
+        <xsl:value-of select="concat($testNgXslt.outputDir, '/', $fileName)"/>
     </xsl:function>
 
     <xsl:function name="testng:safeFileName">
