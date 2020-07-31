@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testng0714.HomeWork">
         <methods>
-          <include name="testCase01"></include>
+          <exclude name="testCase01"></exclude>
         </methods>
       </class>
     </classes>
