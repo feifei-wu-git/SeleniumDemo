@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Default Suite" parallel="classes">
+<suite name="Default Suite" parallel="methods">
   <test name="automation">
     <classes>
       <class name="com.testng0714.HomeWork">
         <methods>
-          <include name="testCase01"/>
+          <exclude name="testCase01"/>
           <!--<exclude name="case1"></exclude>-->
         </methods>
 
