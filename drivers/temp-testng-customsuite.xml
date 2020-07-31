@@ -5,8 +5,8 @@
     <classes>
       <class name="com.testng0714.HomeWork">
         <methods>
-          <exclude name="testCase01"/>
-          <!--<exclude name="case1"></exclude>-->
+          <!--<include name="testCase01"/>-->
+          <exclude name="testCase01"></exclude>
         </methods>
 
       </class>
