@@ -15,7 +15,7 @@
 		<xslt in="./target/surefire-reports/testng-results.xml"
 			  style="./test-output/testng-results.xsl"
 			  out="./test-output/index12.html">
-			<param name="testNgXslt.outputDir" expression="./test-output/" />
+			<param name="testNgXslt.outputDir" expression="./" />
 			<classpath refid="test.classpath" />
 		</xslt>
 	</target>
